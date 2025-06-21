@@ -3,6 +3,7 @@ name: Deploy .NET 9 Build to FTPS with App_offline.htm
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   deploy:
